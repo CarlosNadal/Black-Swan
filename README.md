@@ -22,3 +22,5 @@ flowchart TD
     C --> D[🎨 React Frontend (BloodHound-style graph)]
     D --> E[🎯 Target Selection & Attack Launch (Future)]
 ```
+
+---
