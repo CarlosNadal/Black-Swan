@@ -17,8 +17,14 @@ It parses airodump-ng CSV output, maps Access Points (APs) and connected clients
 
 ```mermaid
 flowchart TD
-    A[Wi-Fi Recon (airodump-ng)] --> B[Parse CSV (parse_airodump.py)]
-    B --> C[Structured JSON (recon_output.json)]
-    C --> D[React Frontend Visualization]
-    D --> E[Target Selection & Attack Launch (Future)]
+    A["Wi-Fi Recon (airodump-ng)"] --> B["Parse CSV (parse_airodump.py)"]
+    B --> C["Structured JSON (recon_output.json)"]
+    C --> D["React Frontend Visualization"]
+    D --> E["Target Selection & Attack Launch (Future)"]
 
+    style A fill:#ffedcc,stroke:#e69b00,stroke-width:2px
+    style B fill:#d1f0ff,stroke:#007acc,stroke-width:2px
+    style C fill:#e7e7e7,stroke:#555,stroke-width:2px
+    style D fill:#e6ffe6,stroke:#009900,stroke-width:2px
+    style E fill:#fff0f5,stroke:#cc0066,stroke-width:2px
+```
