@@ -5,15 +5,15 @@ It parses airodump-ng CSV output, maps Access Points (APs) and connected clients
 
 ## 🔑 Key Features
 
-**CSV → JSON Parsing:** Python script converts raw airodump-ng CSV into clean, structured JSON.
+- **CSV → JSON Parsing:** Python script converts raw airodump-ng CSV into clean, structured JSON.
 
-**Client-AP Mapping:** Automatically links stations to their associated APs.
+- **Client-AP Mapping:** Automatically links stations to their associated APs.
 
-**Frontend-Ready:** Outputs data ready for React-based visualization.
+- **Frontend-Ready:** Outputs data ready for React-based visualization.
 
-**Extensible Design:** Future integration with FastAPI backend and attack modules (handshake capture, deauth, PMKID, Evil Twin).
+- **Extensible Design:** Future integration with FastAPI backend and attack modules (handshake capture, deauth, PMKID, Evil Twin).
 
-**Red Team Focus:** Built for reconnaissance and adversary simulation workflows.
+- **Red Team Focus:** Built for reconnaissance and adversary simulation workflows.
 
 graph TD
     A[📡 Wi-Fi Recon (airodump-ng)] --> B[🐍 parse_airodump.py]
