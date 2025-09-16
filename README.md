@@ -15,8 +15,10 @@ It parses airodump-ng CSV output, maps Access Points (APs) and connected clients
 
 - **Red Team Focus:** Built for reconnaissance and adversary simulation workflows.
 
-graph TD
+```mermaid
+flowchart TD
     A[📡 Wi-Fi Recon (airodump-ng)] --> B[🐍 parse_airodump.py]
     B --> C[📝 recon_output.json]
     C --> D[🎨 React Frontend (BloodHound-style graph)]
     D --> E[🎯 Target Selection & Attack Launch (Future)]
+```
